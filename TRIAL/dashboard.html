@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <title>Dashboard</title>
+    <head>
+        <title>Dashboard</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-      
-<body>
-      <h1 class="dashboard1">Dashboard</h1> 
+    </head>
+
+    <body>
+        <h1 class="dashboard1">Dashboard</h1>
         <hr>
-        
-<div class="layout">
 
-    <div class="sidebar">
+        <div class="layout">
+            <div class="sidebar">
+                <ul>
+                    <li><a class="home" href="index.html"><span class="icon">🏠</span> Home</a></li>
+                    <li><a class="dashboard" href="dashboard.html"><span class="icon">📊</span> Dashboard</a></li>
+                    <li><a class="grades" href="grades.html"><span class="icon">📝</span> Grades</a></li>
+                    <li><a class="schedule" href="schedule.html"><span class="icon">📅</span> Schedule</a></li>
+                </ul>
+            </div>
 
-        <ul>
-            <li>
-            <a class="home" href="lobby.html">Home</a></li>
-            <li><a class="dashboard" href="dashboard.html">Dashboard</a></li>
-            <li><a class="grades" href="grades.html"Grades>Grades</a></li>
-            <li><a class="schedule" href="schedule.html">Schedule</a></li>
-        </ul>
+            <div class="content">
+                <h2>Welcome to Dashboard</h2>
+                <p class="pee">This page gives a quick overview of my academic progress, completed tasks, and upcoming responsibilities for the week.</p>
 
-    </div>
-    <div class="content">
-    <h1>Welcome to Dashboard</h1>
-        <p class="pee">
-            This is the trial of my project that i am suppose to finish until december
-        </p>
-     </div>
-     
-</div>
-</body>
+                <div class="stat-grid">
+                    <div class="stat-box">
+                        <h3>Average Grade</h3>
+                        <p>91%</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Assignments</h3>
+                        <p>4 Pending</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Next Class</h3>
+                        <p>Math 10:00 AM</p>
+                    </div>
+                </div>
 
+                <div class="info-card">
+                    <h3>Progress Summary</h3>
+                    <p>Performance is strong this week, and I am staying on track with most subjects. There is still room to improve consistency in quizzes and deadlines.</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
